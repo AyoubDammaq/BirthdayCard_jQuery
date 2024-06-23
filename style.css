@@ -1,0 +1,94 @@
+.carte{
+    background-color: lightskyblue;
+    height: 650px;
+    width: 450px;
+    position: relative;
+}
+.first{
+    size: 10%;
+    background-color: white;
+    text-align: center;
+    transform: translate(-50%, 50%);
+    position: absolute;
+    padding: 2px 15px;
+    top: 3%;
+    left: 50%;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: solid;
+    font-weight: bold;
+    font-size: 150%;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+.second{
+    color: white;
+    background-color: mediumspringgreen; 
+    text-align: center;
+    transform: translate(-50%, 50%);
+    position: absolute;
+    padding: 3% 15.5%;
+    top: 23%;
+    left: 50%;
+    border-radius: 5px;
+    border-color: mediumseagreen;
+    border-width: 10px;
+    font-weight: bold;
+    display: none;
+    white-space: nowrap;
+}
+.third{
+    color: white;
+    background-color: lightsalmon ;
+    text-align: center;
+    transform: translate(-50%, 50%);
+    position: absolute;
+    padding: 3% 14.5%;
+    top: 37%;
+    left: 50%;
+    border-radius: 5px;
+    border-color: darksalmon;
+    font-weight: bold;
+    display: none;
+    white-space: nowrap;
+}
+.furth{
+    color: white;
+    background-color: violet;
+    text-align: center;
+    transform: translate(-50%, 50%);
+    position: absolute;
+    padding: 3% 13%;
+    top: 51%;
+    left: 50%;
+    border-radius: 5px;
+    border-color: fuchsia;
+    font-weight: bold;
+    display: none;
+    white-space: nowrap;
+}
+.first:hover{
+    background-color: gainsboro;
+}
+.second:hover{
+    background-color: mediumseagreen;
+}
+.third:hover{
+    background-color: darksalmon;
+}
+.furth:hover{
+    background-color: fuchsia;
+}
+.background_second{
+    background-image: url('Pusheen.jfif');
+}
+p{
+    margin-left: 10px;
+    background-color: lightskyblue;
+    color: white;
+    border-radius: 5px;
+    border-width: 0px;
+    border-color: lightskyblue;
+    font-size: 80%;
+}
